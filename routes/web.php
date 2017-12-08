@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+
+Route::get('/', 'IndexController@home');
+Route::get('/article/{id}', 'IndexController@articleDetail' )->where('id', '[0-9]+');
