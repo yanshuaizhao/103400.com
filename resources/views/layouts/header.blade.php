@@ -12,14 +12,6 @@
             <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="active nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">前端编程 <i class="fa fa-angle-down"></i></a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="#">Vue</a>
-                            <a class="dropdown-item" href="#">HTML5</a>
-                            <a class="dropdown-item" href="#">CSS</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
                         <a class="active nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">后端编程 <i class="fa fa-angle-down"></i></a>
                         <div class="dropdown-menu dropdown-menu-right">
                             <a class="dropdown-item" href="#">GoLang</a>
@@ -28,7 +20,7 @@
                             <a class="dropdown-item" href="#">Php</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">图书推荐</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/ming.html">IT名言</a></li>
                     <!--<li class="nav-item"><a class="nav-link login-trigger" data-toggle="modal" data-target="#login-modal">Log in</a></li>-->
                     <!--<li class="nav-item nav-item-cta last"><a class="nav-link btn btn-cta btn-cta-primary" data-toggle="modal" data-target="#signup-modal">Get Started</a></li>-->
                 </ul>

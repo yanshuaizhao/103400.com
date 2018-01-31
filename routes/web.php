@@ -17,3 +17,5 @@
 
 Route::get('/', 'IndexController@home');
 Route::get('/article/{id}', 'IndexController@articleDetail' )->where('id', '[0-9]+');
+
+Route::get('/ming.html', 'IndexController@ming' );
